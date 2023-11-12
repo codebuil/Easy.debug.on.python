@@ -6,7 +6,7 @@ def alimits(a:int,b:int,c:int)->int:
   
   return a
 
-  return b[a]
+  
 
 def debug3(func,a,b,c):
   r=func(a,b,c)
