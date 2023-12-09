@@ -17,7 +17,7 @@ class fileformat:
                     nn=len(n)
                     tt=False
                 n=n.replace("\r","")
-                print(n[count:nn])
+                print(n[count:nn],end="")
                 count+=i
                 if count>len(n):
                     tt=False 
