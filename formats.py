@@ -10,6 +10,7 @@ class fileformat:
         for n in ss:
             count=0
             tt=True
+            n=n+"\n"
             while tt:
                 nn=count+i
                 if nn>len(n):
