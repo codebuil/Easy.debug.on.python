@@ -10,14 +10,14 @@ class fileformat:
         for n in ss:
             count=0
             tt=True
-            n=n+"\n"
+        
             while tt:
                 nn=count+i
                 if nn>len(n):
                     nn=len(n)
                     tt=False
                 n=n.replace("\r","")
-                print(n[count:nn],end="")
+                print(n[count:nn])
                 count+=i
                 if count>len(n):
                     tt=False 
