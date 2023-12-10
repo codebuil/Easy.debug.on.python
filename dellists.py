@@ -27,7 +27,7 @@ class lists:
     a=None
     if index==0:
       self.root=self.root.next
-      self.count-=1
+      
     else:
        
        if index<self.count:
