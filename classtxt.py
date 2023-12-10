@@ -1,6 +1,6 @@
 
 class texts:
-    def __ini__(self,value):
+    def __init__(self,value):
       self.lines=""
       self.lines=value.split("\n")
 
